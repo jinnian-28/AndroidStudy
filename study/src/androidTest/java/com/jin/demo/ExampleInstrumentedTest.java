@@ -1,4 +1,4 @@
-package com.jin.study;
+package com.jin.demo;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.jin.study", appContext.getPackageName());
+        assertEquals("com.jin.study.test", appContext.getPackageName());
     }
 }

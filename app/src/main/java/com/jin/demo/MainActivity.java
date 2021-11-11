@@ -1,4 +1,4 @@
-package com.jin.study;
+package com.jin.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 

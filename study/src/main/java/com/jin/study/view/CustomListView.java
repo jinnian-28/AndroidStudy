@@ -30,7 +30,7 @@ public class CustomListView extends ListView {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        //进入了此方法所有无法显示完全
+        //进入了此方法所以无法显示完全
 //        if (heightMode == MeasureSpec.UNSPECIFIED) {
 //            heightSize = mListPadding.top + mListPadding.bottom + childHeight +
 //                    getVerticalFadingEdgeLength() * 2;
