@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CustomTextView">
-        <attr name="customText" format="string"/>
-        <attr name="customTextColor" format="color"/>
-        <attr name="customTextSize" format="dimension"/>
+        <attr name="customText" format="string" />
+        <attr name="customTextColor" format="color" />
+        <attr name="customTextSize" format="dimension" />
         <!--背景是由View管理的-->
-<!--        <attr name="customTextBackground" format="reference|color"/>-->
+        <!--        <attr name="customTextBackground" format="reference|color"/>-->
         <!--枚举-->
         <attr name="inputType">
             <enum name="number" value="1" />
             <enum name="text" value="2" />
             <enum name="password" value="3" />
         </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TacSeekBar">
+        <attr name="outerColor" format="color" />
+        <attr name="innerColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="tacTextSize" format="string" />
+        <attr name="tacTextColor" format="color" />
+
     </declare-styleable>
 </resources>
