@@ -9,7 +9,10 @@
     <com.jin.study.view.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:customText="试试"
+        android:background="#F40B0B"
+        android:paddingTop="90dp"
+        app:customText="试试无所谓"
+        app:customTextSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
